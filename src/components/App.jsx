@@ -1,11 +1,24 @@
-import React from 'react';
+import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import './app.css';
 import Navbar from './Navbar/Navbar';
+//import ItemCount from './ItemCount/ItemCount';
+import ItemList from './ItemList/ItemList';
+import Producto from './Producto/Producto';
+import Carrito from './Carrito/Carrito';
 
 const App =() =>{
+
+  
   return (
     <>
-    <Navbar/>
+    <BrowserRouter>
+      <Navbar/>
+      <Routes>
+        <Route path='/' element={<ItemList/>}/>
+        <Route path='/producto' element={<Producto/>}/>
+        <Route path='/carrito' element={<Carrito/>}/>
+      </Routes>
+    </BrowserRouter>
 
     </>
     
