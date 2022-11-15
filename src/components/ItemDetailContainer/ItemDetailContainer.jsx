@@ -1,9 +1,9 @@
 import {useState, useEffect} from 'react';
 import {useParams} from 'react-router-dom'
-import DetalleProducto from '../DetalleProducto/DetalleProducto';
+import ItemDetail from '../ItemDetail/ItemDetail';
 import { consultarBDD } from '../../assets/funciones';
 
-const Producto = () => {
+const ItemDetailContainer = () => {
 
     const [producto, setProducto] = useState([]);
     const {id}= useParams()
@@ -17,11 +17,11 @@ const Producto = () => {
     }, []);
     return (
         <div>
-            <div className="card mb-3 container detalleProducto">
-                <DetalleProducto producto={producto} />
+            <div className="card mb-3 container itemDetail">
+                <ItemDetail producto={producto} />
             </div>
         </div>
     );
 }
 
-export default Producto;
+export default ItemDetailContainer;

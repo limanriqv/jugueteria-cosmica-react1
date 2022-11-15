@@ -7,7 +7,7 @@ import carrito from '../../img/carrito-de-compras.png';
 const CartWidget = () => {
     return (
         <div>
-            <Link className='nav-link' to="/Carrito">
+            <Link className='nav-link' to="/Cart">
        
                 <img className='carrito1' src={carrito} alt="carrito" />
 
