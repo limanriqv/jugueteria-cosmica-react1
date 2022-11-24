@@ -1,7 +1,7 @@
 [
     {
         "id":1,
-        "categoria":"1",
+        "idCategoria":1,
         "nombre":"Juego de carta DOS ",
         "marca":"Ruibal",
         "precio": 399,
@@ -13,7 +13,7 @@
     {
         
         "id":2,
-        "categoria":"1",
+        "idCategoria":1,
         "nombre":"Juego de carta Uno",
         "marca":"Ruibal ",
         "precio": 818,
@@ -23,7 +23,7 @@
 
     {
         "id":3,
-        "categoria":"1",
+        "idCategoria":1,
         "nombre":"Juego de la Oca",
         "marca":"Ruibal",
         "precio": 3.750,
@@ -34,7 +34,7 @@
 
     {
         "id":4,
-        "categoria":"1",
+        "idCategoria":1,
         "nombre":"Monopoly",
         "marca":"Hasbro",
         "precio":7.394,
@@ -45,7 +45,7 @@
 
     {
         "id":5,
-        "categoria":"2",
+        "idCategoria":2,
         "nombre":"Muñeca Barbie Básica Modelo Nuevo T7439",
         "marca":"Mattel",
         "precio": 4.490,
@@ -56,7 +56,7 @@
     {
         
         "id":6,
-        "categoria":"2",
+        "idCategoria":2,
         "nombre":"Stranger Things - Robin",
         "marca":"Funko",
         "precio": 14.000,

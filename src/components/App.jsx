@@ -14,9 +14,12 @@ const App =() =>{
     <BrowserRouter>
       <Navbar/>
       <Routes>
-        <Route path='/' element={<ItemListContainer/>}/>  //home
-        <Route path='/product/:id' element={<ItemDetailContainer/>}/>  
+
+        <Route path='/' element={<ItemListContainer/>}/>  //home-inicial
+        <Route path='/product/:id' element={<ItemDetailContainer/>}/>  //parametros
         <Route path='/cart' element={<Cart/>}/>
+        <Route path='/category/:category' element={<ItemListContainer/>}/>
+
       </Routes>
     </BrowserRouter>
 
